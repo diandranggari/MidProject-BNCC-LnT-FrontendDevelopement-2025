@@ -1,2 +1,2 @@
-# MidProject-BNCC-LnT-FrontendDevelopement-2025
+# MidProject-BNCC-LnT-FrontendDevelopment-2025
 Website LnT BNCC Malang (class project)
