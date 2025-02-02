@@ -1,0 +1,698 @@
+body {
+    background-color: #050D43;
+    margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0px;
+}
+
+.divider {
+    height: 50px;
+    background-color: #050D43;
+}
+
+.monserrat-bold {
+    font-family: "Monserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.monserrat-bold-italic {
+    font-family: "Monserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav{
+    display: flex;
+    padding: 15px 50px;
+    background: transparent;
+    justify-content: space-around;
+}
+
+.logo{
+    padding: 15px;
+    margin-right: 50px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 40px;
+    padding: 15px;
+}
+
+/*main page website*/
+section.hero {
+    height: 100vh;
+    background: url("background.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 35%;
+    bottom: 25%;
+    left: 35%;
+    right: 35%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    animation: fadeIn 1s linear;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 1;
+        color: #050D43;
+    }
+    50% {
+        opacity: 0;
+        color: #CEDBE7;
+    }
+    100% {
+        opacity: 1;
+        color: #CEDBE7;
+    }
+}
+
+.caption .text h1 {
+    margin-bottom: 10px;
+    color: #CEDBE7;
+    font-size: 50px;
+}
+
+.caption .text h2 {
+    margin-bottom: 10px;
+    color: #CEDBE7;
+    font-size: 30px;
+}
+
+.caption button{
+    margin-top: 30px;
+    margin-right: 125px;
+    margin-left: 125px;
+    background-color: transparent;
+    color: white;
+    border: 1.5px solid white;
+    padding: 10px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.caption button:hover {
+    background-color: white;
+    color: black;
+    transition: all 0.5s ease-in-out;
+}
+
+.caption2 {
+    position: absolute;
+    top: 20%;
+    bottom: 25%;
+    left: 35%;
+    right: 35%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.caption2 .text h1 {
+    margin-bottom: 10px;
+    color: #CEDBE7;
+    font-size: 50px;
+}
+
+.caption2 .text h2 {
+    margin-bottom: 10px;
+    color: #CEDBE7;
+    font-size: 30px;
+}
+
+.about {
+    min-height: 100vh;
+    background-color: #050D43;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.description {
+    align-self: center;
+    color: #CEDBE7;
+    padding-right: 50px;
+}
+
+.description .header {
+    font-size: 32px;
+}
+
+.description .sub-header {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.promotion {
+    display: flex;
+    align-items: center;
+}
+
+.c {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    color: white;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.c2 {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    color: white;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 8px;
+}
+
+.course2 {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.course2 .description {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    padding: 0px;
+}
+
+.course3 {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.course3 .description {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+.course {
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    animation: fadeIn 0.5s linear;
+}
+
+.course .description {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    padding: 0px;
+}
+
+.description .dc {
+    text-align: center;
+    align-self: center;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #CEDBE7;
+    border-radius: 15px;
+    color: #050D43;
+    background-color: #CEDBE7;
+}
+
+.description .dc2 {
+    text-align: center;
+    align-self: center;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #CEDBE7;
+    border-radius: 15px;
+    color: #CEDBE7;
+    background-color: #050D43;
+}
+
+.dc h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.dc p {
+    margin: 0px;
+}
+
+.dc h4 {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.dc a {
+    border: 1px solid #050D43;
+    color: #CEDBE7;
+    background-color: #050D43;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 5px;
+    align-items: center;
+}
+
+/*contact us page*/
+.info {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 125px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    animation: fadeIn 1s linear;
+    color: #CEDBE7;
+    font-size: 30px;
+}
+
+.info2 {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    margin-top: 150px;
+    margin-left: 70px;
+    align-content: center;
+    color: #CEDBE7;
+}
+
+.info2 h3 {
+    font-size: 30px;
+}
+
+.info3 {
+    width: 75%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    margin-top: 150px;
+    margin-right: 200px;
+    align-content: center;
+    color: #CEDBE7;
+}
+
+.info3 h3{
+    font-size: 30px;
+}
+
+.kotak {
+    border: 1px solid #CEDBE7;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.container .login-form {
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 25px;
+    width: 100%;
+    background-color: #CEDBE7;
+}
+
+div.login-form {
+    text-align: center;
+    margin: 0px;
+}
+
+div.input-group {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    gap: 5px;
+
+}
+
+div.input-group2 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    gap: 5px;
+
+}
+
+div.login-form button{
+    width: 30%;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 0.5px solid #050D43;
+    cursor: pointer;
+    background-color: #050D43;
+    color: white;
+    margin-top: 50px;
+}
+
+div.input-group label{
+    align-self: flex-start;
+}
+
+div.input-group2 label {
+    align-self: flex-start;
+}
+
+div.input-group input{
+    padding: 5px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    background-color: #CEDBE7;
+}
+
+div.input-group2 input{
+    padding: 35px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    background-color: #CEDBE7;
+}
+
+div.login-form button:hover{
+    border: 2px solid black;
+    background-color: black;
+    color:white;
+}
+
+/*display mobile*/
+@media(min-width: 320px) and (max-width: 375px) {
+    .divider {
+        height: 20px;
+        background-color: #050D43;
+    }
+
+    .nav{
+        display: flex;
+        padding: 15px 30px;
+        background: transparent;
+        justify-content: space-around;
+    }
+    
+    .logo{
+        padding: 15px;
+        margin-right: 25px;
+    }
+    
+    .nav-links{
+        display: flex;
+        gap: 10px;
+        padding: 5px;
+    }
+
+    .caption {
+        top: 50%;
+        left: 30%;
+        transform: translate(-30%, -50%);
+        gap: 15px;
+        animation: fadeIn 1s linear;
+    }    
+
+    .caption .text h1 {
+        font-size: 12px;
+    }
+    
+    .caption .text h2 {
+        font-size: 10px;
+    }
+    
+    .caption button{
+        font-size: 10px;
+        margin: 0px 25px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .container .header {
+        order: 1;
+        padding: 0px 10px;
+    }
+
+    .container .sub-header {
+        order: 2;
+        padding: 0px 10px;
+    }
+
+    .description .header {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .description .sub-header {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .promotion {
+        gap: 10px;
+    }
+
+    .course {
+        max-width: 280;
+        display: flex;
+        flex-direction: column;
+    }
+    .course3 .dc {
+        gap: 10px;
+        font-size: 10px;
+    }
+
+    .course2 {
+        max-width: 280;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .course2 .dc {
+        gap: 10px;
+        font-size: 10px;
+    }
+
+    .course3 {
+        max-width: 280;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .course3 .dc {
+        gap: 10px;
+        font-size: 10px;
+    }
+
+    .c {
+        margin: 0px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .dc {
+        max-width: 280px;
+    }
+
+    .dc h2 {
+        font-size: 12px;
+    }
+
+    .dc p {
+        font-size: 10px;
+    }
+
+    .c2 {
+        font-size: 10px;
+    }
+
+    .info h1{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        animation: fadeIn 1s linear;
+        color: #CEDBE7;
+        font-size: 20px;
+    }
+
+    .info h2 {
+        font-size: 15px;
+    }
+    
+    .info2 {
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+        margin: 50px 20px;
+        align-content: center;
+        color: #CEDBE7;
+    }
+    
+    .isi h3{
+        font-size: 20px;
+    }
+
+    .isi p {
+        font-size: 12px;
+    }
+    
+    .info3 {
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+        margin: 50px 20px;;
+        align-content: center;
+        color: #CEDBE7;
+    }
+    
+    
+    .container .login-form {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        margin-bottom: 20px;
+        padding: 30px;
+        border-radius: 25px;
+        width: 100%;
+        background-color: #CEDBE7;
+    }
+    
+    div.login-form {
+        text-align: center;
+        margin: 0px;
+    }
+    
+    div.input-group {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 12px;
+        gap: 5px;
+    
+    }
+    
+    div.input-group2 {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 12px;
+        gap: 5px;
+    
+    }
+    
+    div.login-form button{
+        width: 20%;
+        padding: 5px 10px;
+        border-radius: 20px;
+        border: 0.5px solid #050D43;
+        cursor: pointer;
+        background-color: #050D43;
+        color: white;
+        margin-top: 30px;
+    }
+    
+    div.input-group label{
+        align-self: flex-start;
+    }
+    
+    div.input-group2 label {
+        align-self: flex-start;
+    }
+
+    div.input-group input{
+        padding: 5px;
+        border: 0.5px solid black;
+        border-radius: 5px;
+        background-color: #CEDBE7;
+    }
+
+    div.input-group2 input{
+        padding: 5px;
+        border: 0.5px solid black;
+        border-radius: 5px;
+        background-color: #CEDBE7;
+    }
+
+    div.login-form button:hover{
+        border: 2px solid black;
+        background-color: black;
+        color:white;
+    }
+}
